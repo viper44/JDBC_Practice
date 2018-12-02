@@ -17,6 +17,7 @@ public class Main {
         for (Car c : cars){
             System.out.println(c);
         }
+
         //System.out.println(carDao.getById(10));
 //        carDao.updatePrice(50, 11);
 //        System.out.println(carDao.getById(11));
