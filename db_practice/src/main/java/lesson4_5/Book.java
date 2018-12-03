@@ -1,4 +1,4 @@
-package lesson4;
+package lesson4_5;
 
 import lombok.AccessLevel;
 import lombok.Data;

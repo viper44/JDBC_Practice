@@ -1,4 +1,4 @@
-package lesson4;
+package lesson4_5;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ public class Main {
         AuthorHelper authorHelper = new AuthorHelper();
 
         Author author = new Author();
-        author.setName("ogurec");
+        author.setName("Petro");
         authorHelper.addAuthor(author);
 
         List<Author> authorList = authorHelper.getAuthorList();

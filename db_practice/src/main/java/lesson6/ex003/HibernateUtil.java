@@ -1,4 +1,4 @@
-package lesson4;
+package lesson6.ex003;
 
 
 
@@ -14,7 +14,7 @@ public class HibernateUtil {
         if (factory == null){
             try{
                 factory = new Configuration()
-                        .configure()
+                        .configure("lesson6_ex003.config.xml")
                         .buildSessionFactory();
             } catch (HibernateException e){
                 e.printStackTrace();

@@ -10,7 +10,6 @@
         <property name="connection.pool_size"> 2 </property>
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
-       <mapping class="lesson4_5.ex_004.Author"/>
-       <mapping class="lesson4_5.Book"/>
-</session-factory>
+        <mapping class="lesson6.ex002.Author"/>
+    </session-factory>
 </hibernate-configuration>
